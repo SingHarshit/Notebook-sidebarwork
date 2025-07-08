@@ -20,16 +20,52 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+💡 Assumptions
+The app is primarily intended for personal note organization with a simple UI.
 
-To learn more about Next.js, take a look at the following resources:
+It assumes a single-user, local usage scenario (no authentication or multi-user system).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Notes are either mock data or stored in local memory — persistent database is not yet integrated.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🐞 Known Issues / Enhancements
+🚩 Known Issues
+No backend storage — notes are lost on refresh if not connected to an API.
 
-## Deploy on Vercel
+No markdown or rich text support yet.
+
+✨ Planned Enhancements
+Integrate persistent storage (e.g., MongoDB or SQLite).
+
+Add authentication for multi-user support.
+
+Enhance the UI with drag-and-drop note rearrangement.
+
+Support markdown preview.
+
+## 🚀 Working Code (Run locally)
+
+```bash
+git clone https://github.com/yourgithub/Notebook-sidebarwork.git
+cd Notebook-sidebarwork
+npm install
+npm run dev
+
+
+📸 Screenshots
+![Screenshot 2025-07-08 150405](https://github.com/user-attachments/assets/54c6e0c3-50a3-4c1a-b068-5136264db466)
+
+![Screenshot 2025-07-08 150545](https://github.com/user-attachments/assets/4fdcea18-78ee-4820-9035-950ba8b97b79)
+
+![Screenshot 2025-07-08 150558](https://github.com/user-attachments/assets/7d00e887-1c0e-4fa4-94be-0add71246805)
+
+![Screenshot 2025-07-08 150606](https://github.com/user-attachments/assets/5bcf9c4e-f172-4a77-b091-0188af1762f9)
+
+![Screenshot 2025-07-08 150645](https://github.com/user-attachments/assets/acfc48ff-22ab-40bc-b219-ab2b55c6e136)
+
+
+
+
+
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
