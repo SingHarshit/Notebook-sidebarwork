@@ -49,7 +49,7 @@ git clone https://github.com/yourgithub/Notebook-sidebarwork.git
 cd Notebook-sidebarwork
 npm install
 npm run dev
-
+```
 
 📸 Screenshots
 ![Screenshot 2025-07-08 150405](https://github.com/user-attachments/assets/54c6e0c3-50a3-4c1a-b068-5136264db466)
@@ -61,6 +61,21 @@ npm run dev
 ![Screenshot 2025-07-08 150606](https://github.com/user-attachments/assets/5bcf9c4e-f172-4a77-b091-0188af1762f9)
 
 ![Screenshot 2025-07-08 150645](https://github.com/user-attachments/assets/acfc48ff-22ab-40bc-b219-ab2b55c6e136)
+
+
+✍️ License
+MIT License.
+Feel free to fork and modify for your own use!
+
+yaml
+Copy
+Edit
+
+---
+
+✅ **How to add the screenshots**
+
+1. Place your screenshots in your project, for example in a `screenshots/` folder:
 
 
 
