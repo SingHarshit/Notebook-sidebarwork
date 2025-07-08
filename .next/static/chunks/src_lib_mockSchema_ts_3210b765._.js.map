@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/Frames/Next%20JS/assignment/src/lib/mockSchema.ts"],"sourcesContent":["export const mockSchema = {\r\n  tables: [\r\n    {\r\n      name: 'orders',\r\n      columns: ['id', 'customer', 'total']\r\n    },\r\n    {\r\n      name: 'users',\r\n      columns: ['id', 'name', 'email']\r\n    }\r\n  ]\r\n};\r\n"],"names":[],"mappings":";;;AAAO,MAAM,aAAa;IACxB,QAAQ;QACN;YACE,MAAM;YACN,SAAS;gBAAC;gBAAM;gBAAY;aAAQ;QACtC;QACA;YACE,MAAM;YACN,SAAS;gBAAC;gBAAM;gBAAQ;aAAQ;QAClC;KACD;AACH","debugId":null}}]
+}
